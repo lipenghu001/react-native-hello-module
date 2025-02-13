@@ -1,0 +1,24 @@
+# OSX
+.DS_Store
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Android/IntelliJ
+android/build/
+android/.idea
+android/.gradle
+android/local.properties
+*.iml
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcodeproj
+
+# Build
+lib/
+dist/ 

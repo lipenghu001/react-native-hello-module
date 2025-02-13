@@ -1,10 +1,8 @@
-declare module 'react-native-my-hello' {
-  export default {
-    /**
-     * Returns a greeting message from native module
-     * @param name The name to greet
-     * @returns A promise that resolves with the greeting message
-     */
-    helloWorld(name: string): Promise<string>;
-  };
-}
+declare module 'react-native-hello-module' {
+  export interface HelloModuleInterface {
+    helloWorld(): Promise<string>;
+  }
+
+  const HelloModule: HelloModuleInterface;
+  export default HelloModule;
+} 
