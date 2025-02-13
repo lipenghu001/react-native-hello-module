@@ -1,0 +1,36 @@
+{
+  "name": "react-native-my-hello",
+  "version": "1.0.0",
+  "description": "A simple hello world package for React Native",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "react-native": {
+    "MyHelloModule": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
+  },
+  "files": [
+    "android",
+    "ios",
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "react-native",
+    "hello",
+    "world"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0",
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.72.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

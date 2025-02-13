@@ -1,0 +1,4 @@
+dependencies {
+    implementation project(':react-native-my-hello')
+    // ... 其他依赖
+} 
